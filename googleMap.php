@@ -78,4 +78,4 @@ $zoom = '&zoom='.$settings['z'];
 $markers = $settings['marker']?'&markers='.$address:'';
 $sensor = $settings['sensor']?'&sensor=true':'&sensor=false';
 
-return $api.$center.$size.$zoom.$markers.$sensor;
+return $api.$center.$size.$zoom.$markers.$sensor.$key;
